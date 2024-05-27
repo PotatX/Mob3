@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".windows.edits.EditFragment">
+
+    <LinearLayout
+        android:id="@+id/laqout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:orientation="vertical">
+
+        <EditText
+            android:id="@+id/editTextName"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Name" />
+
+        <EditText
+            android:id="@+id/editTextClient"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:ems="10"
+            android:inputType="text"
+            android:hint="Client" />
+
+        <Button
+            android:id="@+id/buttonSave"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Save" />
+
+        <Button
+            android:id="@+id/buttonDelete"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Delete" />
+
+        <CheckBox
+            android:id="@+id/checkBoxNew"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="New" />
+
+        <CheckBox
+            android:id="@+id/checkBoxUsed"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Used" />
+
+        <CheckBox
+            android:id="@+id/checkBoxDeleted"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Deleted" />
+    </LinearLayout>
+
+</FrameLayout>
